@@ -1,0 +1,28 @@
+My study guide from https://help.github.com/
+
+Git commands I've learned so far -
+
+1#git status
+--presents the local repo status of files that are added, or to be added or to be commited....
+
+2#git add --all
+-- adds everything in the local repo to the "stage" that is to be commited.
+
+3#git commit -m "summary for the commit"
+-- actual changes in the repo are "saved" completely with this command, -m stands for -message
+
+4#(git config --global user.email "you@example.com") -- ( git config --global user.name "Your Name")
+-- these two commands are essential to commit, if not the 3# command will through an error. (--global) is optional, if omitted, user details are limited to that local repo only. enter the above two commands separately !!
+
+5#git remote -v
+-- check to see whether this local repo has any remote repos linkes to it
+
+6#git remote add <ALIAS> <URL>
+-- to add a new remote; point to remember local repo is named as "master" and remote repo is "origin" by default, though we can assign any desired name for remote repo. <url> in format of "https://github.com/user/repo.git".
+-- examples : git remote add origin https://github.com/myusername/myreponame.git
+                        git remote add destination https://github.com/myusername/myreponame.git
+
+7#git push  <REMOTENAME> <BRANCHNAME> 
+--simply pushes all your local repo files to the remote repo(only if ther are any changes and u should have write permission to the remote). It checks the write permission by asking ur remote repo username and password, then preceeds to pushing.
+-- example: git push origin master
+--https://help.github.com/articles/pushing-to-a-remote
