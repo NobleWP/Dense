@@ -1,7 +1,10 @@
 Dense
 =====
 
-makeit available to everyone
-makeit available to everyone
-makeit available to everyone
-makeit available to everyone
+makeit available to everone
+makeit avail
+to every1
+so that
+they make
+wonderful
+software
